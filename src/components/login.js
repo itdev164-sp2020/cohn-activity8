@@ -1,11 +1,11 @@
-import React, { useState } from "react"
-import { navigate } from "gatsby"
-import { handleLogin, isLoggedIn } from "../utils/auth"
+import React, { useState } from "react";
+import { navigate } from "gatsby";
+import { handleLogin, isLoggedIn } from "../utils/auth";
 
 const Login = () => {
   if (isLoggedIn()) {
-      navigate(`/app/profile`)
-      return null
+      navigate(`/app/profile`);
+      return null;
   }
 
     return (
