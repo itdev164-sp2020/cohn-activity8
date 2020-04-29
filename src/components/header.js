@@ -1,7 +1,7 @@
-import { Link, navigate } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
-import {logout} from '../utils/auth'
+import { Link, navigate } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import {logout} from '../utils/auth';
 
 const Header = ({ siteTitle }) => (
   <header

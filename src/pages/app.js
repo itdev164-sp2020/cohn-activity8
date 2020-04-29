@@ -1,8 +1,8 @@
-import React from "react"
-import { Router } from "@reach/router"
-import Layout from "../components/Layout"
-import PrivateRoute from "../components/private-route"
-import Login from "../components/login"
+import React from "react";
+import { Router } from "@reach/router";
+import Layout from "../components/Layout";
+import PrivateRoute from "../components/private-route";
+import Login from "../components/login";
 
 const Profile = () => <h1>Profile</h1>
 const Details = () => <h1>Details</h1>
